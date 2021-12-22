@@ -14,7 +14,7 @@ int main()
 	Area = (Height * Base) / 2.0f;
 	Area = (static_cast<float>(Height) * static_cast<float>(Base)) / 2.0f;
 
-	cout << Area;
+	cout << Area << endl;
 
 	return 0;
 }
